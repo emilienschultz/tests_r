@@ -18,6 +18,8 @@ log_time <- function(log_file) {
               append = TRUE)
 }
 
+cat("COUCOU")
+
 # Infinite loop to log the time every minute
 while (TRUE) {
   log_time(log_file)
